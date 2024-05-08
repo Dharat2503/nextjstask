@@ -1,0 +1,99 @@
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  color:#9f8181 ;
+}
+
+
+.table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+
+.table tr:nth-child(3n) {
+  background-color: #f3efef; 
+
+}
+
+.table th, .table td {
+  padding: 8px;
+  text-align: center;
+  border: 3px solid #ddd;
+
+
+}
+
+.table th {
+  background-color: #f3efef;
+}
+
+
+
+.input1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+
+.input{
+  width: 100%; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #CBD5E0;
+  border-radius: 6px; 
+  padding: 9px;
+  justify-content: center;
+  outline-color: #9f8181;
+
+}
+
+
+
+
+
+
+
+
+.sortbtn {
+
+  padding: 8px 16px;
+  background-color:#f3efef ;
+ margin: 10px;
+  border-radius: 2px;
+  border-color: #f3efef;
+  color: rgb(29, 29, 83);
+  text-align: center;
+  text-decoration: none;
+font-size: 16px;
+border-radius: 8px;
+  display: 'inline-block';
+  transition: background-color 0.3s;
+
+}
+.sortbtn:hover {
+  background-color: #ddd; 
+}
+.sortbtn:active {
+  background-color: #bbb; 
+}
